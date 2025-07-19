@@ -21,8 +21,31 @@ img {
     
 }
 p {
-    font-size: 14px;
+    font-size: 11px;
     color: #333;
     margin-left: 150px;
     padding: 10px 0;
     }
+
+.card_sobre {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+ul {
+    list-style-type: disc;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.card_sobre h3 {
+    font-size: 18px;
+    color: #003b2c;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
