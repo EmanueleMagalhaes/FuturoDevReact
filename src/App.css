@@ -60,6 +60,13 @@ h2 {
   font-weight: 600;
 }
 
+.produtos-section h2 {
+  font-size: 24px;
+  color: #034419;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
 /* Container flex */
 .card-container {
   display: flex;
@@ -86,3 +93,16 @@ h2 {
   
 }
 
+.produtos-section {
+  padding: 40px 20px;
+
+  text-align: center;
+  width: 80%;
+}
+
+.produtos-section h2 {
+  font-size: 24px;
+  color: #034419;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
