@@ -5,6 +5,7 @@ import PorQueInvestir from './components/PorQueInvestir';
 import SobreNos from './components/SobreNos';
 import Produtos from './components/Produtos';
 import Orcamento from './components/Orcamento';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -47,6 +48,11 @@ function App() {
         <h2 className='orcamento-titulo'>Solicite seu Orçamento</h2>
         <Orcamento />
       </section>
+
+      
+
+          <Footer />
+  
 
     </div>
   );
