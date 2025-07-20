@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import PorQueInvestir from './components/PorQueInvestir';
 import SobreNos from './components/SobreNos';
 import Produtos from './components/Produtos';
+import Orcamento from './components/Orcamento';
 
 function App() {
   return (
@@ -41,6 +42,11 @@ function App() {
         </div>
       </section>
 
+
+      <section className='orcamento-section' id='orcamento'>
+        <h2 className='orcamento-titulo'>Solicite seu Orçamento</h2>
+        <Orcamento />
+      </section>
 
     </div>
   );
